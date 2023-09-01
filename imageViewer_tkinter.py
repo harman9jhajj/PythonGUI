@@ -2,7 +2,7 @@ from tkinter import *
 from PIL import Image,ImageTk
 
 root = Tk()
-my_img1 = ImageTk.PhotoImage(Image.open("d:/Harman/wallpapers/toronto-skyline-at-sunset.jpg"))
+my_img1 = ImageTk.PhotoImage(Image.open("d:/Harman/wallpapers/toronto-skyline-at-sunset.jpg")) #TODO: please specify path here
 my_img2 = ImageTk.PhotoImage(Image.open("d:/Harman/wallpapers/python.ico"))
 my_img3 = ImageTk.PhotoImage(Image.open("d:/Harman/wallpapers/man utd.jpg"))
 my_img4 = ImageTk.PhotoImage(Image.open("d:/Harman/wallpapers/bubble_chat.ico"))
